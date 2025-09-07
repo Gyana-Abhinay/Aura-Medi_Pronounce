@@ -1,0 +1,18 @@
+# Only deploy the static site
+node_modules
+server/
+client/
+shared/
+dist/
+netlify/
+*.config.*
+*.config.ts
+*.config.js
+*.ts
+*.tsx
+vite.config.*
+tailwind.config.*
+tsconfig.json
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
